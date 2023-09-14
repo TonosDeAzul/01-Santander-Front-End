@@ -43,7 +43,7 @@
 /* SECCIÓN INICIO */
 .picture{
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
 }
 /* .picture2{
     display: none;
@@ -103,7 +103,7 @@
 /* SECCIÓN BÚSQUEDA */
 .second__container{
     padding: 0 10px;
-    background-color: #bdebf7;
+    background-color: #dbeff9;
     justify-content: flex-start;
     gap: 20px;
 }
@@ -115,6 +115,9 @@
     justify-content: center;
     position: relative;
     margin-top: 30px;
+    max-width: 600px;
+    font-size: 24px;
+    font-weight: 500;
 }
 .headerTitle__link{
     position: absolute;
@@ -122,6 +125,7 @@
 }
 .barSearch{
     width: 100%;
+    max-width: 600px;
     position: relative;
 }
 .barSearch__input{
@@ -130,6 +134,7 @@
     border-radius: 30px;
     border: none;
     outline: none;
+    background-color: #f1f9fd;
     padding: 5px 15px 5px 40px;
 }
 .barSearch__image{
@@ -139,6 +144,7 @@
 }
 .category{
     width: 100%;
+    max-width: 600px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -154,7 +160,10 @@
     /* display: inline-block; */
     padding: 7px;
     border-radius: 30px;
-    background-color: #2c4674;
+    background-color: #6aa5e3;
+}
+.category__animal:nth-child(2){
+    background-color: #f1f9fd;
 }
 .category__animal--image{
     background-color: #fff;
@@ -165,15 +174,19 @@
 }
 .category__animal--text{
     display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
 }
 .container__cards{
     width: 100%;
+    max-width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     /* background-color: #bdebf7; */
     gap: 10px;
+    margin-bottom: 30px;
 }
 .card__animal{
     background-color: #e3c069;
@@ -204,8 +217,13 @@
     align-items: center;
     justify-content: space-between;
 }
+.animal__info--name{
+    font-size: 18px;
+    font-weight: bold;
+}
 .animal__info--race{
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 .animal__photo{
@@ -234,5 +252,8 @@
 .animal__photo--Reigner:hover{
     transform: translateY(-15px);
 }
-
+.animal__info--price{
+    font-size: 18px;
+    font-weight: 500;
+}
 /* SECCIÓN PET */
