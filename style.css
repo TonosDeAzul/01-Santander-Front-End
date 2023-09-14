@@ -100,7 +100,7 @@
     text-align: center;
 }
 
-/* SECCIÓN BÚSQUEDA */
+/* SECCIÓN BÚSQUEDA PERROS */
 .second__container{
     padding: 0 10px;
     background-color: #dbeff9;
@@ -161,9 +161,16 @@
     padding: 7px;
     border-radius: 30px;
     background-color: #6aa5e3;
+    text-decoration: none;
+    color: #f1f9fd;
 }
-.category__animal:nth-child(2){
+/* 
+.category__animal--perros{
+    color: #f1f9fd;
+} */
+.category__animal--mod{
     background-color: #f1f9fd;
+    color: #2c4674;
 }
 .category__animal--image{
     background-color: #fff;
@@ -256,4 +263,8 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+/* SECCIÓN BÚSQUEDA GATOS */
+
+
 /* SECCIÓN PET */
